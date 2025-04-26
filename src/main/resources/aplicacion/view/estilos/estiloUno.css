@@ -1,0 +1,168 @@
+/* Estilos generales */
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f0f2f5;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 20 0;
+}
+
+/* Paneles */
+.panel {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-padding: 15;
+}
+
+.panel-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.panel-description {
+    -fx-font-size: 12px;
+    -fx-text-fill: #666666;
+    -fx-padding: 0 0 10 0;
+}
+
+/* Botones */
+.button {
+    -fx-background-color: #4a6da7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15;
+    -fx-background-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #3c5a8c;
+}
+
+.button:disabled {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #888888;
+}
+
+/* Asientos */
+.seat {
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #e0e0e0;
+    -fx-background-color: #f8f9fa;
+}
+
+.seat-number {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.passenger-name {
+    -fx-font-size: 12px;
+}
+
+.passenger-type {
+    -fx-font-size: 11px;
+    -fx-text-fill: #666666;
+}
+
+/* Estilos para tipos de pasajeros */
+.seat-discapacidad {
+    -fx-border-color: #dc3545;
+    -fx-background-color: #f8d7da;
+}
+
+.seat-embarazada {
+    -fx-border-color: #ffc107;
+    -fx-background-color: #fff3cd;
+}
+
+.seat-adulto-mayor {
+    -fx-border-color: #6f42c1;
+    -fx-background-color: #e2d9f3;
+}
+
+.seat-comun {
+    -fx-border-color: #0d6efd;
+    -fx-background-color: #cfe2ff;
+}
+
+/* Área del conductor */
+.driver-area {
+    -fx-border-width: 2;
+    -fx-border-color: #495057;
+    -fx-background-color: #e9ecef;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Leyenda */
+.legend-discapacidad {
+    -fx-background-color: #f8d7da;
+    -fx-border-color: #dc3545;
+    -fx-border-width: 1;
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+}
+
+.legend-embarazada {
+    -fx-background-color: #fff3cd;
+    -fx-border-color: #ffc107;
+    -fx-border-width: 1;
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+}
+
+.legend-adulto-mayor {
+    -fx-background-color: #e2d9f3;
+    -fx-border-color: #6f42c1;
+    -fx-border-width: 1;
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+}
+
+.legend-comun {
+    -fx-background-color: #cfe2ff;
+    -fx-border-color: #0d6efd;
+    -fx-border-width: 1;
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+}
+
+.legend-disponible {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+}
+
+.legend-text {
+    -fx-font-size: 11px;
+}
+
+.asiento {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-background-radius: 20 20 0 0; /* redondeado arriba */
+    -fx-border-radius: 20 20 0 0;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.volante {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-color: lightgray;
+    -fx-shape: "M 50,50 m -50,0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0";
+}
+
